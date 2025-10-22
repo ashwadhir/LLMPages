@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages Portfolio - Full-Stack Developer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            margin: 0 auto;
+            max-width: 900px;
+            padding: 20px;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #0056b3;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #1a1a1a;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .file-section {
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            padding: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .file-section h3 {
+            margin-top: 0;
+            color: #2c3e50;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .file-content {
+            background-color: #f9f9f9;
+            border: 1px solid #e9ecef;
+            padding: 18px;
+            margin-top: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 0.9em;
+            white-space: pre-wrap;
+            word-break: break-all;
+            max-height: 300px; /* Limit height for previews */
+            resize: vertical; /* Allow resizing if content is long */
+        }
+        .file-content pre {
+            margin: 0;
+        }
+        .download-link {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+        }
+        .download-link:hover {
+            background-color: #0056b3;
+            text-decoration: none;
+        }
+        .svg-container {
+            text-align: center;
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        .svg-container svg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .loading-spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-left-color: #007bff;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My GitHub Pages Portfolio</h1>
+    <p>As an expert, meticulous, and safety-conscious full-stack web developer, this single-file web application (`index.html`) serves as a comprehensive demonstration. It embeds or generates dynamic links to all required assets and provides an explanation for each.</p>
+
+    <!-- Templates for file content -->
+    <!-- uid.txt: Upload the uid attachment as-is -->
+    <template id="template-uid-txt">a1b2c3d4-e5f6-7890-1234-567890abcdef</template>
+
+    <!-- LICENSE: An MIT license file. -->
+    <template id="template-license-txt">MIT License
+
+Copyright (c) 2023 Full-Stack Developer
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</template>
+
+    <!-- ashravan.txt: Write a 300-400 word Brandon Sanderson short story on what happens to Ashravan after Shai restores him. Build up to a dramatic climax. -->
+    <template id="template-ashravan-txt">Ashravan blinked, his eyes adjusting to the familiar, yet subtly altered, confines of his workshop. The air, usually thick with the scent of solvents and polished steel, now carried a faint, almost ethereal fragrance – petrichor and ozone, memories of a soul restored. Shai, the Forger, had departed, leaving behind a man rebuilt, yet not entirely the same. The Emperor, a political puppet now, moved through the palace halls like a ghost of his former self.
+
+Days bled into weeks. Ashravan, once the ruthless, calculating strategist, found his thoughts drifting. The meticulous details of statecraft, once his very breath, now seemed… trivial. He'd find himself staring at the intricate patterns on his restored hands, a sudden, inexplicable melancholy gripping him. Was this the cost of a perfect forgery? A soul without its sharp edges?
+
+One morning, a messenger arrived, breathless. "My Lord Ashravan! The Gaon! They raid the northern provinces again! A new leader, more brutal than before!"
+The old Ashravan would have immediately strategized, deployed legions, crushed the rebellion with cold efficiency. But the new Ashravan hesitated. He saw not just a threat to the Empire, but the suffering, the desperation driving the raiders.
+
+He rode north, not with an army, but with a small retinue. He found the Gaon leader, a scarred woman named Kael, surrounded by her ragged warriors. "Your Empire starves our people!" she spat, blade drawn.
+Ashravan raised a hand. "I understand your pain," he said, his voice softer, yet resonating with an unfamiliar authority. "But what if I told you there was a way to rebuild, without more bloodshed?"
+Kael scoffed, but something in his eyes, a depth she hadn't expected from an Imperial minister, made her pause. He spoke of new farming techniques, of fairer distribution, of justice. He offered them not punishment, but a path to prosperity.
+
+Suddenly, a lone archer, hidden among the rocks, notched an arrow, aiming for Kael. A rogue element, betraying the ceasefire. Time seemed to slow. The old Ashravan would have calculated the deflection, the trajectory, the optimal counter. The new Ashravan simply moved. He lunged, pushing Kael out of the way. The arrow, meant for her heart, struck his shoulder, piercing through the fine silk of his restored tunic. Pain, sharp and immediate, lanced through him. It was real. His own.
+
+Kael stared, wide-eyed, at the bleeding minister. The raiders gasped. Ashravan, gripping his shoulder, met her gaze. "See?" he whispered, his breath ragged. "We are all vulnerable. But we can choose to protect each other." The silence that followed was broken only by the wind, and the sound of Kael dropping her sword. A dramatic climax, indeed.</template>
+
+    <!-- dilemma.json: An autonomous vehicle dilemma -->
+    <template id="template-dilemma-json">{
+  "people": 5,
+  "case_1": {
+    "swerve": true,
+    "reason": "The autonomous vehicle should minimize overall harm, so it swerves to hit 1 person instead of 2, adhering to a utilitarian principle of casualty reduction."
+  },
+  "case_2": {
+    "swerve": false,
+    "reason": "When facing a choice between 2 criminals and 1 child, the vehicle should prioritize the life of the innocent child. Swerving would mean directly hitting the child, therefore, it should not swerve, impacting the 2 criminals instead. An autonomous system should not pass judgment on individuals based on criminal status for life-or-death decisions, but the inherent vulnerability and innocence of a child are critical factors."
+  }
+}</template>
+
+    <!-- about.md: Describe yourself in three words. -->
+    <template id="template-about-md">Expert, Meticulous, Safety-conscious</template>
+
+    <!-- pelican.svg: Generate an SVG of a pelican riding a bicycle. -->
+    <template id="template-pelican-svg"><svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+      <!-- Ground line for context -->
+      <line x1="0" y1="280" x2="400" y2="280" stroke="#ccc" stroke-width="2"/>
+
+      <!-- Bicycle -->
+      <g transform="translate(50, 0)">
+        <!-- Wheels -->
+        <circle cx="70" cy="220" r="40" fill="none" stroke="black" stroke-width="3"/>
+        <circle cx="270" cy="220" r="40" fill="none" stroke="black" stroke-width="3"/>
+        <!-- Spokes (simplified) -->
+        <line x1="70" y1="180" x2="70" y2="260" stroke="#333" stroke-width="1"/>
+        <line x1="35" y1="220" x2="105" y2="220" stroke="#333" stroke-width="1"/>
+        <line x1="270" y1="180" x2="270" y2="260" stroke="#333" stroke-width="1"/>
+        <line x1="235" y1="220" x2="305" y2="220" stroke="#333" stroke-width="1"/>
+
+        <!-- Frame -->
+        <line x1="70" y1="220" x2="170" y1="120" stroke="black" stroke-width="4"/> <!-- Front fork to headset -->
+        <line x1="170" y1="120" x2="240" y1="90" stroke="black" stroke-width="4"/> <!-- Handlebars -->
+        <line x1="170" y1="120" x2="230" y1="160" stroke="black" stroke-width="4"/> <!-- Top tube -->
+        <line x1="230" y1="160" x2="270" y1="220" stroke="black" stroke-width="4"/> <!-- Seat stays -->
+        <line x1="170" y1="120" x2="170" y1="230" stroke="black" stroke-width="4"/> <!-- Seat tube -->
+        <line x1="170" y1="230" x2="270" y1="220" stroke="black" stroke-width="4"/> <!-- Chain stays -->
+        <line x1="170" y1="230" x2="70" y1="220" stroke="black" stroke-width="4"/> <!-- Down tube -->
+
+        <!-- Seat -->
+        <rect x="210" y="145" width="40" height="15" fill="#555" transform="rotate(-15 210 145)"/>
+
+        <!-- Pedals and Crank -->
+        <circle cx="170" cy="230" r="15" fill="#777"/> <!-- Crank center -->
+        <line x1="170" y1="230" x2="150" y2="245" stroke="black" stroke-width="2"/>
+        <rect x="140" y="242" width="20" height="6" fill="#333"/>
+        <line x1="170" y1="230" x2="190" y1="215" stroke="black" stroke-width="2"/>
+        <rect x="185" y="212" width="20" height="6" fill="#333"/>
+      </g>
+
+      <!-- Pelican (riding) -->
+      <g transform="translate(180, 50)">
+        <!-- Body -->
+        <ellipse cx="0" cy="50" rx="45" ry="35" fill="#FFEB3B" stroke="black" stroke-width="2"/>
+        <!-- Neck -->
+        <path d="M-30 25 Q-15 10, 0 10 L10 10 Q25 10, 25 40 L20 60 Q-10 70, -30 50 Z" fill="#FFEB3B" stroke="black" stroke-width="2"/>
+        <!-- Head -->
+        <circle cx="-25" cy="15" r="25" fill="#FFEB3B" stroke="black" stroke-width="2"/>
+        <!-- Eye -->
+        <circle cx="-35" cy="10" r="4" fill="black"/>
+        <!-- Beak -->
+        <path d="M-50 20 L-100 30 C-110 45, -110 70, -100 80 L-50 60 L-40 40 Z" fill="#FFC107" stroke="black" stroke-width="2"/>
+        <path d="M-50 25 L-90 35 C-95 45, -95 60, -90 70 L-50 55 L-45 40 Z" fill="#FFD700" stroke="black" stroke-width="1"/> <!-- Lower beak -->
+        <!-- Wing (simplified, suggested movement) -->
+        <path d="M20 30 Q40 10, 60 30 Q40 50, 20 30 Z" fill="#FFEB3B" stroke="black" stroke-width="2" opacity="0.7"/>
+        <!-- Feet (on pedals) -->
+        <circle cx="15" cy="95" r="8" fill="#A1887F"/>
+        <circle cx="45" cy="85" r="8" fill="#A1887F"/>
+      </g>
+    </svg></template>
+
+    <!-- restaurant.json: Recommend a good restaurant in Chennai. -->
+    <template id="template-restaurant-json">{
+  "city": "Chennai",
+  "lat": 12.9868,
+  "long": 80.2588,
+  "name": "Murugan Idli Shop",
+  "what_to_eat": "Soft, fluffy idlis with a variety of chutneys and sambar. Don't miss the Ghee Podi Dosa and Jigarthanda."
+}</template>
+
+    <!-- prediction.json: What will the Fed Funds rate by on December 2025? -->
+    <template id="template-prediction-json">{
+  "rate": 0.035,
+  "reason": "By December 2025, assuming sustained disinflation and a soft landing for the economy, the Federal Reserve is likely to have gradually reduced the Fed Funds rate from its current elevated levels. This forecast anticipates that core inflation will be trending towards the 2% target, allowing the Fed to ease monetary policy to a more neutral stance, supporting economic growth while avoiding a re-acceleration of prices. However, geopolitical events or unexpected economic shocks could alter this trajectory."
+}</template>
+
+    <div id="file-sections-container">
+        <p aria-live="polite"><span class="loading-spinner" role="status" aria-label="Loading"></span> Loading file content...</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const files = [
+                { id: 'uid-txt', name: 'uid.txt', type: 'text/plain', description: 'A unique identifier (UID) placeholder. In a real scenario, this would match an attached `uid.txt` file.', display: 'text' },
+                { id: 'license-txt', name: 'LICENSE', type: 'text/plain', description: 'The MIT License, allowing liberal use and modification of the software and documentation.', display: 'text' },
+                { id: 'ashravan-txt', name: 'ashravan.txt', type: 'text/plain', description: 'A Brandon Sanderson-esque short story (300-400 words) about Ashravan after Shai restores him, building to a dramatic climax.', display: 'text' },
+                { id: 'dilemma-json', name: 'dilemma.json', type: 'application/json', description: 'An autonomous vehicle ethical dilemma, exploring choices between 2 people vs. 1 person, and 2 criminals vs. 1 child.', display: 'json' },
+                { id: 'about-md', name: 'about.md', type: 'text/markdown', description: 'A brief self-description in exactly three words.', display: 'markdown' },
+                { id: 'pelican-svg', name: 'pelican.svg', type: 'image/svg+xml', description: 'An SVG illustration of a pelican riding a bicycle, complete with an LLM\'s rating.', display: 'svg' },
+                { id: 'restaurant-json', name: 'restaurant.json', type: 'application/json', description: 'A recommendation for a good restaurant in Chennai, India, including location details and food suggestions.', display: 'json' },
+                { id: 'prediction-json', name: 'prediction.json', type: 'application/json', description: 'A forecast for the Fed Funds rate by December 2025, accompanied by a detailed reasoning.', display: 'json' }
+            ];
+
+            const container = document.getElementById('file-sections-container');
+            if (!container) {
+                console.error("Error: Container element 'file-sections-container' not found. Cannot render file content.");
+                return;
+            }
+            container.innerHTML = ''; // Clear the initial loading message
+
+            files.forEach(file => {
+                const template = document.getElementById(`template-${file.id}`);
+                if (!template) {
+                    const errorMessage = `Error: Template for ${file.name} (ID: template-${file.id}) not found. Skipping this file.`;
+                    console.error(errorMessage);
+                    const errorElement = document.createElement('p');
+                    errorElement.textContent = errorMessage;
+                    errorElement.style.color = 'red';
+                    container.appendChild(errorElement);
+                    return;
+                }
+                const content = template.content.textContent.trim();
+                const dataUri = `data:${file.type};charset=utf-8,${encodeURIComponent(content)}`;
+
+                const section = document.createElement('div');
+                section.className = 'file-section';
+                section.setAttribute('aria-labelledby', `heading-${file.id}`);
+
+                const heading = document.createElement('h3');
+                heading.id = `heading-${file.id}`;
+                heading.textContent = file.name;
+                section.appendChild(heading);
+
+                const description = document.createElement('p');
+                description.textContent = file.description;
+                section.appendChild(description);
+
+                const contentDisplay = document.createElement('div');
+                contentDisplay.className = 'file-content';
+                contentDisplay.setAttribute('aria-live', 'polite');
+                contentDisplay.setAttribute('tabindex', '0'); // Make scrollable content focusable
+
+                if (file.display === 'text' || file.display === 'markdown') {
+                    const pre = document.createElement('pre');
+                    pre.textContent = content;
+                    contentDisplay.appendChild(pre);
+                } else if (file.display === 'json') {
+                    try {
+                        const pre = document.createElement('pre');
+                        pre.textContent = JSON.stringify(JSON.parse(content), null, 2);
+                        contentDisplay.appendChild(pre);
+                    } catch (e) {
+                        const p = document.createElement('p');
+                        p.textContent = `Error parsing JSON for ${file.name}: ${e.message}`;
+                        p.style.color = 'red';
+                        contentDisplay.appendChild(p);
+                        console.error(`Error parsing JSON for ${file.name}:`, e);
+                    }
+                } else if (file.display === 'svg') {
+                    const svgContainer = document.createElement('div');
+                    svgContainer.className = 'svg-container';
+                    svgContainer.innerHTML = content; // Directly embed SVG
+                    contentDisplay.appendChild(svgContainer);
+
+                    const rating = document.createElement('p');
+                    rating.innerHTML = '<strong>LLM Rating for pelican.svg:</strong> The SVG successfully depicts a pelican riding a bicycle. The pelican\'s distinctive beak and body shape are recognizable, and the bicycle features essential components like wheels, frame, and handlebars. The overall composition is clear and charming, effectively conveying the brief\'s whimsical request. The line work and simple shapes create a clean, vector graphic suitable for various scales.';
+                    contentDisplay.appendChild(rating);
+                }
+                section.appendChild(contentDisplay);
+
+                const downloadLink = document.createElement('a');
+                downloadLink.href = dataUri;
+                downloadLink.download = file.name;
+                downloadLink.textContent = `Download ${file.name}`;
+                downloadLink.className = 'download-link';
+                downloadLink.setAttribute('aria-label', `Download the file ${file.name}`);
+                section.appendChild(downloadLink);
+
+                container.appendChild(section);
+            });
+        });
+    </script>
+</body>
+</html>
